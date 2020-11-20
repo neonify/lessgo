@@ -29,11 +29,6 @@ lessgo -u https://www.example.com/FUZZ -dirT -c 100
 * `cd /usr/bin`
 * `go build github.com/neonify/lessgo`
 
-__UPDATE__
-* `go get -u github.com/neonify/lessgo`
-* `cd /usr/bin`
-* `go build github.com/neonify/lessgo`
-
 
 ## USAGE 
 
