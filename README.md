@@ -105,3 +105,7 @@ Attacking for Directories/Path Traversal/Local File Inclusion
 ### SUPPORT 
 INSTAGRAM : https://m.instagram.com/kryshh_na
 TWITTER : https://mobile.twitter.com/neonify4
+
+### FEEDBACK/SUGGESTIONS : MAIL US
+
+<a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
