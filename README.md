@@ -71,7 +71,7 @@ OPTIONAL
 ### FUZZING GET DATA
 __STEPS__
 * Enter the parameters & their values as a part of the url
-* Replace the value tp be fuzzed with the word "FUZZ" 
+* Replace the value tp be fuzzed with the word `FUZZ`
 
 __EXAMPLE__ \
 `https://www.example.com?id=123&pwd=FUZZ`
