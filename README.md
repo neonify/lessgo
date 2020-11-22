@@ -25,10 +25,6 @@ the flag `-c`
 * Easy Usage
    * It is very easy to <a href="#INSTALLATION">`install`</a> & use
 
-   * Adding headers: 
-      * Paste the headers in a file
-      * Specify the file name by passing the flag `-H`
-
 ## REQUIREMENTS
 * <a href="https://golang.org">`GoLang`</a>
 
