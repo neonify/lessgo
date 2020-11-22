@@ -4,9 +4,9 @@
       |_|___|___|___|_  |___|
                     |___|
 
-<img src="https://img.shields.io/badge/build-passing-green?style=plastic">   <img src="https://img.shields.io/badge/made with-golang-orange?style=plastic">
-<img src="https://img.shields.io/badge/author-neonify-blue?style=plastic">      <img src="https://img.shields.io/badge/credits-nego-yellow?style=plastic">
-<img src="https://img.shields.io/badge/license-GNU General Public License v3.0-green?style=plastic">
+<img src="https://img.shields.io/badge/build-passing-green">   <img src="https://img.shields.io/badge/made with-golang-orange">
+<img src="https://img.shields.io/badge/author-neonify-blue">      <img src="https://img.shields.io/badge/credits-nego-yellow">
+<img src="https://img.shields.io/badge/license-GNU General Public License v3.0-green">
 
 
 
