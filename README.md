@@ -11,7 +11,11 @@
 A __fast__ web fuzzer in golang
 
 ## Table Of Contents
-<a href="#SPEED">speed</a>
+* <a href="#SPEED">`Speed`</a> 
+* <a href="#INSTALLATION">`Installation`</a>
+* <a href="#USAGE">`Usage`</a>
+* <a href="#EXAMPLES">`Examples`</a>
+* <a href="#SUPPORT & FEEDBACK">`Support/Feedback`</a>
 
 ## SPEED 
 This tool is written golang which is very fast. 
@@ -105,9 +109,9 @@ Attacking for Directories/Path Traversal/Local File Inclusion
 ### VERSION
 <strong>v 2.0.2</strong>
 
+### SUPPORT & FEEDBACK
 
 __SUPPORT__
-<a href="https://m.instagram.com/kryshh_na">`Instagram`</a>
 <a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
 
 __FEEDBACK__
