@@ -20,7 +20,7 @@ A `fast` web fuzzer in golang
 ## FEATURES
 
 ## REQUIREMENTS
-* GoLang
+* <span style="color:cyan">GoLang</span>
 
 ## INSTALLATION
 * `go get github.com/neonify/lessgo`
