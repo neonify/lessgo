@@ -91,10 +91,10 @@ __EXAMPLE__ \
 For Specifying Headers 
 * `lessgo -u https://www.example.com -H file_containing_headers.txt`
 
-For Fuzzing __GET__ data
+For Fuzzing `GET` data
 * `lessgo -u https://www.example.com?id=FUZZ -f list.txt`
 
-For Fuzzing __POST__ data
+For Fuzzing `POST` data
 * `lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt`
 
 For Grepping Status Codes
