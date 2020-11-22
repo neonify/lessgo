@@ -81,7 +81,7 @@ from the other by a `&` sign.
 * Replace the value to be fuzzed with the word `FUZZ`
 
 __EXAMPLE__ \
-`-D "id=123&pwd=FUZZ"`
+* `-D "id=123&pwd=FUZZ"`
 
 ## EXAMPLES
 For Specifying Headers 
