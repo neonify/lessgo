@@ -24,7 +24,7 @@ A `fast` web fuzzer in golang
 the flag "-c"
 
 ## REQUIREMENTS
-* `GoLang`
+* <a href="https://golang.org">`GoLang`</a>
 
 ## INSTALLATION
 * `go get github.com/neonify/lessgo`
