@@ -11,22 +11,13 @@
 A `fast` web fuzzer in golang
 
 ## Table Of Contents
-* <a href="#SPEED">`Speed`</a> 
+* <a href="#FEATURES">`Features`</a> 
 * <a href="#INSTALLATION">`Installation`</a>
 * <a href="#USAGE">`Usage`</a>
 * <a href="#EXAMPLES">`Examples`</a>
 * <a href="#SUPPORT & FEEDBACK">`Support/Feedback`</a>
 
-## SPEED 
-This tool is written golang which is very fast. 
-It can fuzz more than 500 words within a minute.
-It by default has 50 threads which you can alter
-by passing the flag "-c" . \
-Example : 
-```
-lessgo -u https://www.example.com/FUZZ -dirT -c 100
-```
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png">
+## FEATURES
 
 ## REQUIREMENTS
 * GoLang
