@@ -3,7 +3,7 @@
       | | -_|_ -|_ -| . | . |
       |_|___|___|___|_  |___|
                     |___|
-<img src="https://img.shields.io/badge/Language-Golang-green">    <img src="https://img.shields.io/badge/License-GNU General Public License v3.0-blue">
+<img src="https://img.shields.io/badge/Language-Golang-green">    <img src="https://img.shields.io/badge/License-GNU GPL v3.0-blue">
 <img src="https://img.shields.io/badge/Author-Neonify-white">      <img src="https://img.shields.io/badge/Credits-NeGo-orange">
 
 
