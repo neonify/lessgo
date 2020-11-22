@@ -130,7 +130,7 @@ lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
 
 __SUPPORT__
 * <a href="https://mobile.twitter.com/neonify4"><img src="https://img.shields.io/badge/twitter-follow-blue?logo=twitter&style=social"></a>
-* <a href="https://reddit.com/user/n3onify">`Reddit`</a>
+* <a href="https://reddit.com/user/n3onify"><img src="https://img.shields.io/badge/reddit-follow-red?logo=reddit&style=social"></a>
  
 __FEEDBACK__
 * <a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
