@@ -22,6 +22,10 @@ A `fast` web fuzzer in golang
    * It is super fast as it uses golang
    * It has 50 go routines (threads) by default , you can alter them by passing
 the flag `-c`
+* Headers
+   * Adding headers is very easy: 
+      * Paste the headers in a file
+      * Specify the file name by passing the flag `-H`
 
 ## REQUIREMENTS
 * <a href="https://golang.org">`GoLang`</a>
