@@ -4,7 +4,7 @@
       |_|___|___|___|_  |___|
                     |___|
 <img src="https://img.shields.io/badge/Language-Golang-blue">    <img src="https://img.shields.io/badge/License-GNU General Public License v3.0-green">
-<img src="https://img.shields.io/badge/Author-Neonify-red">      <img src="https://img.shields.io/badge/Credits-NeGo-yellow">
+<img src="https://img.shields.io/badge/Author-Neonify-white">      <img src="https://img.shields.io/badge/Credits-NeGo-orange">
 
 
 # lessgo
