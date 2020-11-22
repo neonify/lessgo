@@ -21,7 +21,7 @@ A `fast` web fuzzer in golang
 * Speed
    * It is super fast as it uses golang
    * It has 50 go routines (threads) by default , you can alter them by passing
-the flag "-c"
+the flag `-c`
 
 ## REQUIREMENTS
 * <a href="https://golang.org">`GoLang`</a>
@@ -34,9 +34,9 @@ the flag "-c"
 
 ## USAGE 
 
-* Enter the URL by passing the flag "-u" replace the value to be fuzzed with the word "FUZZ"
+* Enter the URL by passing the flag `-u` replace the value to be fuzzed with the word "FUZZ"
 
-* Enter the wordlist by passing the flag "-f"
+* Enter the wordlist by passing the flag `-f`
 
 Example : 
 ```
