@@ -109,7 +109,7 @@ Attacking for Directories/Path Traversal/Local File Inclusion
 ### SUPPORT & FEEDBACK
 
 __SUPPORT__
-<a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
+* <a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
  
 __FEEDBACK__
 * <a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
