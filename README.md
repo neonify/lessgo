@@ -127,7 +127,7 @@ lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
 ### SUPPORT & FEEDBACK
 
 __SUPPORT__ \
-<a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86aRKmGX4EFff1kwcXYJA4coGrlEZ-mK8oA&usqp=CAU" height="40px"></a>
+<a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86aRKmGX4EFff1kwcXYJA4coGrlEZ-mK8oA&usqp=CAU" width="110px"></a>
 <a href="https://reddit.com/user/n3onify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbvqesjWPhKrOOHcJABPo2-7uvM4iapo3Gw&usqp=CAU" width="80px"></a>
  
 __FEEDBACK__ \
