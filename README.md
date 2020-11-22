@@ -10,6 +10,9 @@
 # lessgo
 A __fast__ web fuzzer in golang
 
+## Table Of Contents
+<a href="#SPEED">speed</a>
+
 ## SPEED 
 This tool is written golang which is very fast. 
 It can fuzz more than 500 words within a minute.
