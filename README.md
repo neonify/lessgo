@@ -88,32 +88,32 @@ __EXAMPLE__
  ```
 
 ## EXAMPLES
-For Specifying Headers 
+* For Specifying Headers 
 ```
 lessgo -u https://www.example.com -H file_containing_headers.txt
 ```
 
-For Fuzzing `GET` data
+* For Fuzzing `GET` data
 ```
 lessgo -u https://www.example.com?id=FUZZ -f list.txt
 ```
 
-For Fuzzing `POST` data
+* For Fuzzing `POST` data
 ``` 
 lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt
 ```
 
-For Grepping Status Codes
+* For Grepping Status Codes
 ``` 
 lessgo -u https://FUZZ.example.com -subd -G 403,404,400
 ```
 
-For subdomain fuzzing
+* For subdomain fuzzing
 ``` 
 lessgo -u https://FUZZ.example.com -subd
 ```
 
-Attacking for Directories/Path Traversal/Local File Inclusion
+* Attacking for Directories/Path Traversal/Local File Inclusion
 ```
 lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
 ```
