@@ -129,7 +129,7 @@ lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
 ### SUPPORT & FEEDBACK
 
 __SUPPORT__
-* <a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
+* <a href="https://mobile.twitter.com/neonify4"><img src="https://img.shields.io/badge/twitter-follow-blue?logo=twitter&style=social"></a>
 * <a href="https://reddit.com/user/n3onify">`Reddit`</a>
  
 __FEEDBACK__
