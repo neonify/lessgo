@@ -129,4 +129,4 @@ __SUPPORT__
  
 __FEEDBACK__
 * <a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
-* <a href="https://github.com/neonify/lessgo/issues">`Want to raise an issue ?`</a>
+* <a href="https://github.com/neonify/lessgo/issues">`Raise an issue `</a>
