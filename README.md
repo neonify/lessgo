@@ -6,7 +6,7 @@
 
 <img src="https://img.shields.io/badge/build-passing-green">   <img src="https://img.shields.io/badge/language-golang-orange">
 <img src="https://img.shields.io/badge/author-neonify-blue">      <img src="https://img.shields.io/badge/credits-nego-green">
-<img src="https://img.shields.io/badge/license-GNU General Public License v3.0-lightblue">
+<img src="https://img.shields.io/badge/license-GNU General Public License v3.0-yellow">
 
 
 
