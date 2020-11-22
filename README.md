@@ -132,4 +132,4 @@ __SUPPORT__
  
 __FEEDBACK__
 * <a href="mailto:lessgofuzzer@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4a8meU4l4dUExmpF7-aViuPkIo_lisM07pQ&usqp=CAU" height="30px"></a>
-* <a href="https://github.com/neonify/lessgo/issues"><img src="https://img.shields.io/badge/raise an-issue-red?logo=github&style=social"></a>
+* <a href="https://github.com/neonify/lessgo/issues"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgYgVFsExjMYtlmONymM58gcWsRGKlgb7FQ&usqp=CAU" width="80px" height="40px"></a>
