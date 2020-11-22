@@ -4,7 +4,7 @@
       |_|___|___|___|_  |___|
                     |___|
 
-<img src="https://img.shields.io/badge/build-passing-green">   <img src="https://img.shields.io/badge/Language-Golang-orange">    <img src="https://img.shields.io/badge/License-GNU GPL v3.0-gold">
+<img src="https://img.shields.io/badge/build-passing-green">   <img src="https://img.shields.io/badge/Language-Golang-orange">    <img src="https://img.shields.io/badge/License-GNU GPL v3.0-lightblue">
 <img src="https://img.shields.io/badge/Author-Neonify-blue">      <img src="https://img.shields.io/badge/Credits-NeGo-green">
 
 
