@@ -18,9 +18,13 @@ A `fast` web fuzzer in golang
 * <a href="#SUPPORT & FEEDBACK">`Support/Feedback`</a>
 
 ## FEATURES
+* Speed
+   * It is super fast as it uses golang
+   * It has 50 go routines (threads) by default , you can alter them by passing
+the flag "-c"
 
 ## REQUIREMENTS
-* <span style="color:cyan">GoLang</span>
+* `GoLang`
 
 ## INSTALLATION
 * `go get github.com/neonify/lessgo`
