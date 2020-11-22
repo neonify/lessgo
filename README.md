@@ -133,5 +133,5 @@ __SUPPORT__
 * <a href="https://reddit.com/user/n3onify"><img src="https://img.shields.io/badge/reddit-follow-red?logo=reddit&style=social"></a>
  
 __FEEDBACK__
-* <a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
-* <a href="https://github.com/neonify/lessgo/issues">`Raise an issue `</a>
+* <a href="mailto:lessgofuzzer@gmail.com"><img src="https://img.shields.io/badge/mail-us-red?logo=gmail&style=social"></a>
+* <a href="https://github.com/neonify/lessgo/issues"><img src="https://img.shields.io/badge/raise an-issue-red?logo=github&style=social"></a>
