@@ -69,8 +69,10 @@ __STEPS__
 * Enter the parameters & their values as a part of the url
 * Replace the value tp be fuzzed with the word `FUZZ`
 
-__EXAMPLE__ \
-`https://www.example.com?id=123&pwd=FUZZ`
+__EXAMPLE__ 
+```
+https://www.example.com?id=123&pwd=FUZZ
+```
 
 ### FUZZING POST DATA 
 __STEPS__
@@ -80,27 +82,41 @@ __STEPS__
 from the other by a `&` sign.
 * Replace the value to be fuzzed with the word `FUZZ`
 
-__EXAMPLE__ \
-* `-D "id=123&pwd=FUZZ"`
+__EXAMPLE__ 
+``` 
+-D "id=123&pwd=FUZZ"
+ ```
 
 ## EXAMPLES
 For Specifying Headers 
-* `lessgo -u https://www.example.com -H file_containing_headers.txt`
+```
+lessgo -u https://www.example.com -H file_containing_headers.txt
+```
 
 For Fuzzing `GET` data
-* `lessgo -u https://www.example.com?id=FUZZ -f list.txt`
+```
+lessgo -u https://www.example.com?id=FUZZ -f list.txt
+```
 
 For Fuzzing `POST` data
-* `lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt`
+``` 
+lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt
+```
 
 For Grepping Status Codes
-* `lessgo -u https://FUZZ.example.com -subd -G 403,404,400`
+``` 
+lessgo -u https://FUZZ.example.com -subd -G 403,404,400
+```
 
 For subdomain fuzzing
-* `lessgo -u https://FUZZ.example.com -subd`
+``` 
+lessgo -u https://FUZZ.example.com -subd
+```
 
 Attacking for Directories/Path Traversal/Local File Inclusion
-* `lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi`
+```
+lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
+```
 
 
 ### VERSION
