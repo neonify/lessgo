@@ -11,7 +11,7 @@
 
 
 
-# lessgo
+### 𝕝𝕖𝕤𝕤𝕘𝕠
 A `fast` web fuzzer in golang
 
 ## Table Of Contents
