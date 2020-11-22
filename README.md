@@ -78,11 +78,11 @@ __EXAMPLE__ \
 
 ### FUZZING POST DATA 
 __STEPS__
-* Enter the parameters and values by passing the flag "-D"
-    * The parameters and their values should be differenciated by a "=" sign
+* Enter the parameters and values by passing the flag `-D`
+    * The parameters and their values should be differenciated by a `=` sign
     * A combination of a parameter and its value should be differnciated
-from the other by a "&" sign.
-* Replace the value to be fuzzed with the word "FUZZ" 
+from the other by a `&` sign.
+* Replace the value to be fuzzed with the word `FUZZ`
 
 __EXAMPLE__ \
 `-D "id=123&pwd=FUZZ"`
