@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/license-GPL v3.0-green">
 
 ### 𝕝𝕖𝕤𝕤𝕘𝕠
-A fast web fuzzer in <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLO9M7e-FIj8ZEacXuSVv47NdBHScc3ZlMA&usqp=CAU" width="40px">
+A fast web fuzzer in <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLO9M7e-FIj8ZEacXuSVv47NdBHScc3ZlMA&usqp=CAU" width="30px">
 
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
