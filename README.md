@@ -12,7 +12,7 @@
 
 
 ### 𝕝𝕖𝕤𝕤𝕘𝕠
-A `fast` web fuzzer in golang
+A _`fast`_ web fuzzer in golang
 
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
