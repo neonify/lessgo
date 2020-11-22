@@ -127,9 +127,9 @@ lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
 ### SUPPORT & FEEDBACK
 
 __SUPPORT__
-* <a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86aRKmGX4EFff1kwcXYJA4coGrlEZ-mK8oA&usqp=CAU" height="30px"></a>
+* <a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR86aRKmGX4EFff1kwcXYJA4coGrlEZ-mK8oA&usqp=CAU" height="40px"></a>
 * <a href="https://reddit.com/user/n3onify"><img src="https://img.shields.io/badge/reddit-follow-red?logo=reddit&style=social"></a>
  
 __FEEDBACK__
-* <a href="mailto:lessgofuzzer@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx8w-U7EfF619fsAfNv20U4jbZ6twg2CJi3A&usqp=CAU" height="30px"></a>
+* <a href="mailto:lessgofuzzer@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4a8meU4l4dUExmpF7-aViuPkIo_lisM07pQ&usqp=CAU" height="30px"></a>
 * <a href="https://github.com/neonify/lessgo/issues"><img src="https://img.shields.io/badge/raise an-issue-red?logo=github&style=social"></a>
