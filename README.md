@@ -8,7 +8,7 @@
 
 
 # lessgo
-A __fast__ web fuzzer in golang
+A `fast` web fuzzer in golang
 
 ## Table Of Contents
 * <a href="#SPEED">`Speed`</a> 
@@ -112,8 +112,8 @@ Attacking for Directories/Path Traversal/Local File Inclusion
 ### SUPPORT & FEEDBACK
 
 __SUPPORT__
-<a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
+* <a href="https://mobile.twitter.com/neonify4">`Twitter`</a>
 
 __FEEDBACK__
-<a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
-<a href="https://github.com/neonify/lessgo/issues">`Want to raise an issue ?`</a>
+* <a href="mailto:lessgofuzzer@gmail.com">`lessgofuzzer@gmail.com`</a>
+* <a href="https://github.com/neonify/lessgo/issues">`Want to raise an issue ?`</a>
