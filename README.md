@@ -40,7 +40,7 @@ the flag `-c`
 
 ## USAGE 
 
-* Enter the URL by passing the flag `-u` , replace the value to be fuzzed with the word "FUZZ"
+* Enter the URL by passing the flag `-u` , replace the value to be fuzzed with the word `FUZZ`
 
 * Enter the wordlist by passing the flag `-f`
 
