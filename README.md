@@ -62,6 +62,7 @@ OPTIONAL
 -c      no of threads (default : 50)
 -R      to follow redirects (default : false)
 -G      to grep the given status codes (default : *)
+-E      to exclude/hide the given status code (default : none)
 -H      to specify the file containg headers
 -D      to specify data to be sent (default : none)
 -T      to specify timeout (default : 0)
