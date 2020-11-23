@@ -55,15 +55,16 @@ CHOOSE ANY ONE
 -f      to specify the wordlist
 -subd   wordlist of common subdomains (length : 871)
 -dirs   wordlist of common directories (length : 1273822)
--dirT   wordlist of path traversal payloads (length : 7988)
 -lfi    wordlist of local file inclusion payloads (length : 961)
 
 OPTIONAL 
+-h      for help
 -c      no of threads (default : 50)
 -R      to follow redirects (default : false)
 -G      to grep the given status codes (default : *)
 -H      to specify the file containg headers
 -D      to specify data to be sent (default : none)
+-T      to specify timeout (default : 0)
 ```
 ### FUZZING GET DATA
 __STEPS__
@@ -87,6 +88,22 @@ __EXAMPLE__
 ``` 
 -D "id=123&pwd=FUZZ"
  ```
+### FUZZING HEADERS
+__STEPS__
+* Paste the headers in a file 
+   * The parameters and their values should be differenciated by a `:` sign
+   * A combination of parameter and its value should be differenciated from other by a new line
+* Replace the value/parameter to be fuzzed with the word `FUZZ`
+* Specify the file name by passing the flag `-H`
+
+__EXAMPLE OF FILE CONTAINING HEADERS__
+```
+Host: FUZZ
+Accept: */*
+Connection: close
+User-Agent: lessgo fuzzer
+Referer: www.google.com
+```
 
 ## EXAMPLES
 * For Specifying Headers 
@@ -114,14 +131,14 @@ lessgo -u https://FUZZ.example.com -subd -G 403,404,400
 lessgo -u https://FUZZ.example.com -subd
 ```
 
-* Attacking for Directories/Path Traversal/Local File Inclusion
+* Attacking for Directories/Local File Inclusion
 ```
-lessgo -u https://www.example.com/FUZZ -dirs/-dirT/-lfi
+lessgo -u https://www.example.com/FUZZ -dirs/-lfi
 ```
 
 
 ### VERSION
-<strong>v 2.0.2</strong>
+<strong>v 2.1.0</strong>
 
 ### SUPPORT & FEEDBACK
 
