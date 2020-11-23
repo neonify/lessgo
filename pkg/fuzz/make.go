@@ -2,12 +2,13 @@ package fuzz
 
 import (
   "net/http"
+  "net"
   "time"
   "strings"
   "github.com/neonify/lessgo/pkg/input"
   )
   
-func MakeReq(Obj input.Data)(*http.Request,error){
+func MakeReq(Obj input.Data,HeaderMap map[string]string)(*http.Request,error){
   var req *http.Request
   var err error
   
@@ -21,8 +22,6 @@ func MakeReq(Obj input.Data)(*http.Request,error){
     req,err = http.NewRequest(Obj.Method,Obj.Url,strings.NewReader(data.Encode()))
   }
   
-  HeaderMap := input.HeaderParse(Obj.HeaderFyl)
-  
   for param, value := range(HeaderMap){
     req.Header.Set(param,value)
   }
@@ -31,9 +30,14 @@ func MakeReq(Obj input.Data)(*http.Request,error){
   
 }
 
-func MakeClient(FR bool)(http.Client){
-  timeout := 10 * time.Second
+func MakeClient(FR bool,Tmout int)(http.Client){
+  timeout := time.Duration(time.Duration(Tmout) *time.Second)
+  
   tr := &http.Transport{
+      Dial: (&net.Dialer{
+      Timeout: timeout,
+      }).Dial,
+      TLSHandshakeTimeout: timeout,
       MaxIdleConns:        1000,
 			MaxIdleConnsPerHost: 500,
 			MaxConnsPerHost:     500,

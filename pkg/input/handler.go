@@ -16,8 +16,11 @@ func (Obj *Data)Handle(){
   ConcReqs := Obj.ConcRequests
   FR := Obj.FollowRedirects
   GL := Obj.Grep
+  EL := Obj.Exclude
   HF := Obj.HeaderFyl
   PD := Obj.PostData
+  TO := Obj.Timeout
+  
   
     lessgo.Color("blue","____________________________________________\n")
   
@@ -27,8 +30,16 @@ func (Obj *Data)Handle(){
     lessgo.ErrorRaiser(lessgo.UrlDoesNotStartWithHttp)
   }
   
+    
+  if FileExists(HF) == false{
+    fmt.Println(HF)
+    lessgo.ErrorRaiser(lessgo.FileNotFound)
+  }
+  
+  HD,_ := ioutil.ReadFile(HF)
+  
   if !strings.Contains(url,"FUZZ") &&
-   !strings. Contains(PD,"FUZZ"){
+   !strings.Contains(PD,"FUZZ") && !strings.Contains(string(HD),"FUZZ"){
     lessgo.ErrorRaiser(lessgo.FuzzableParamNotFound)
   }
 
@@ -59,25 +70,22 @@ func (Obj *Data)Handle(){
   
   lessgo.Color("blue","[*] Method : "+Obj .Method)
   
+  lessgo.Color("blue","[*] Timeout : "+strconv.Itoa(TO))
+  
   StrGL := IntSlice2Str(GL)
+  StrEL := IntSlice2Str(EL)
   
   lessgo.Color("blue","[*] Grep List : "+StrGL)
-  
-  if FileExists(HF) == true{
-    
-    lessgo.Color("blue","[*] Header File : "+HF)
+  lessgo.Color("blue","[*] Exclude List : "+StrEL)
+  lessgo.Color("blue","[*] Header File : "+HF)
     
     
-    lessgo.Color("blue","\nHEADERS\n")
-    HeaderMap := HeaderParse(HF)
+  lessgo.Color("blue","\nHEADERS\n")
+  HeaderMap := HeaderParse(HF)
     
-    for param,value := range(HeaderMap){
-      fmt.Print(string(param)," : ")
-      lessgo.Color("blue",string(value))
-    }
-  }else{
-    fmt.Println(HF)
-    lessgo.ErrorRaiser(lessgo.FileNotFound)
+  for param,value := range(HeaderMap){
+    fmt.Print(string(param)," : ")
+    lessgo.Color("blue",string(value))
   }
   
   lessgo.Color("blue","\nPOST DATA\n")

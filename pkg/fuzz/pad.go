@@ -46,12 +46,15 @@ func Heading(){
 }
 
 func ErrorPrint(err error,payload string){
+  
+  err2 := lessgo.RespErrHandle(err)
+
   fmt.Printf(lessgo.Red.Code)
   fmt.Printf("[!] ")
   fmt.Printf("%-032s","000 Error")
   fmt.Printf("%07d",000)
   fmt.Printf("%-15s","  "+payload)
-  fmt.Println(err)
+  fmt.Println(" ",err2)
   fmt.Printf(lessgo.Reset.Code)
   
 }

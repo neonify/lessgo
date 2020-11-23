@@ -26,43 +26,57 @@ func Handle(Obj input.Data,word string,Output map[int]int)(map[int]int){
   if !(strings.HasPrefix(word2,"#")){
 	  Obj.Url = strings.Replace(Obj.Url,"FUZZ",word2,-1)
 	  Obj.PostData = strings.Replace(Obj.PostData,"FUZZ",word2,-1)
-    Output = Request(Obj,word2,Output)
+	  
+	 HeaderMap := input.HeaderParse(Obj.HeaderFyl)
+	 
+	 for i,_ := range(HeaderMap){
+	   if HeaderMap[i] == "FUZZ"{
+	     HeaderMap[i] = word2
+	   }
+	 }
+	  
+    Output = Request(Obj,word2,Output,HeaderMap)
   }
   
   return Output
 }
 
 
-func Request(Obj input.Data,payload string,Output map[int]int)(map[int]int){
+func Request(Obj input.Data,payload string,Output map[int]int,HeaderMap map[string]string)(map[int]int){
   
   url := Obj.Url
   FR := Obj.FollowRedirects
   GrepList := Obj.Grep
+  ExcList := Obj.Exclude
+  Tmout := Obj.Timeout
   
-  req,err := MakeReq(Obj)
+  req,err := MakeReq(Obj,HeaderMap)
   if err == nil{
   
-    client := MakeClient(FR)
+    client := MakeClient(FR,Tmout)
     resp,err := client.Do(req)
     
     if err != nil{
       ErrorPrint(err,payload)
+      Output = OutPrint(Output,000)
     }else{
-      if len(GrepList) == 0{
+      
+      if len(GrepList) == 0 && len(ExcList) == 0{
         Format(resp,payload,url)
-      }else{
+      }else if len(GrepList) != 0{
         if contains(GrepList,resp.StatusCode) == true{
+          Format(resp,payload,url)
+        }
+      
+      }else if len(ExcList) != 0{
+        if contains(ExcList,resp.StatusCode) == false{
           Format(resp,payload,url)
         }
         
       }
       
       
-        if Exists(Output,resp.StatusCode)==true{
-          Output[resp.StatusCode] += 1
-        }else{
-          Output[resp.StatusCode] = 1
-        }
+      Output = OutPrint(Output,resp.StatusCode)
     
       
     }
@@ -81,4 +95,14 @@ func Exists(Map map[int]int,val int)(bool){
     
   return false
   
+}
+
+func OutPrint(Output map[int]int,code int)(map[int]int){
+    if Exists(Output,code)==true{
+          Output[code] += 1
+    }else{
+          Output[code] = 1
+    }
+    
+    return Output
 }

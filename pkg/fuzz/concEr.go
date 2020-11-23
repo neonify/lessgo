@@ -61,7 +61,10 @@ func WindUp(Output map[int]int){
     lessgo.Color("blue","\n\nPROGRESS\n")
     lessgo.Color("cyan"," Status    Requests")
     for stat,nos := range(Output){
-      fmt.Println("[*] ",stat," : ",nos)
+      fmt.Printf("[*] ")
+      fmt.Printf("%03d",stat)
+      fmt.Printf(" : ")
+      fmt.Println(nos)
     }
     
     lessgo.Color("green","\n[+] All the successful urls are stored in the succ_urls.txt file.\n")

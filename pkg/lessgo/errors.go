@@ -3,6 +3,8 @@ package lessgo
 import (
   "fmt"
   "os"
+  "regexp"
+  "net"
 )
 
 type NewError struct {
@@ -34,3 +36,22 @@ func ErrorRaiser(ErrName NewError){
 }
 
 
+func RespErrHandle(err error)(string){
+  
+  var err2 string = err.Error()
+  
+  if err2  ==""{
+    
+  } else if netErr, ok := err.(net.Error); ok && netErr.Timeout() {
+    err2 = ("Timeout error")
+    
+  } else if match, _ := regexp.MatchString(".*lookup.*", err.Error()); match {
+    err2 = ("Invalid url")
+    
+  } else if match, _ := regexp.MatchString(".*connection refused.*", err.Error()); match {
+    err2 = ("Connection refused")
+    
+  }
+  
+  return err2
+}
