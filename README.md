@@ -16,7 +16,7 @@ A `fast` web fuzzer in golang
 * <a href="#INSTALLATION">`Installation`</a>
 * <a href="#USAGE">`Usage`</a>
 * <a href="#EXAMPLES">`Examples`</a>
-* <a href="#SUPPORT & FEEDBACK">`Support/Feedback`</a>
+* <a href="#SUPPORT">`Support/Feedback`</a>
 
 ## FEATURES
 * Speed
