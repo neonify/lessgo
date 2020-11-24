@@ -15,12 +15,12 @@
 <img src="https://img.shields.io/badge/credits-nego-yellow">
 <img src="https://img.shields.io/badge/license-GPL v3.0-green">
 </p>
-<hr>
 
 <h3 align="center">𝖑𝖊𝖘𝖘𝖌𝖔</h3>
 <p align="center">
 A <code>fast</code> web fuzzer in golang
-</p>
+</p><hr>
+
 
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
