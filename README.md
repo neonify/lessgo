@@ -89,6 +89,15 @@ __EXAMPLE__
 ``` 
 -D "id=123&pwd=FUZZ"
  ```
+<details>
+<summary>Command</summary>
+<br>
+<pre>
+lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt
+</pre>
+</details>
+
+
 ### FUZZING HEADERS
 __STEPS__
 * Paste the headers in a file 
@@ -105,22 +114,21 @@ Connection: close
 User-Agent: lessgo fuzzer
 Referer: www.google.com
 ```
+<details>
+<summary>Command</summary>
+<br>
+<pre>
+lessgo -u https://www.example.com -H file_containing_headers.txt
+</pre>
+</details>
 
 ## EXAMPLES
-* For Specifying Headers 
-```
-lessgo -u https://www.example.com -H file_containing_headers.txt
-```
 
 * For Fuzzing `GET` data
 ```
 lessgo -u https://www.example.com?id=FUZZ -f list.txt
 ```
 
-* For Fuzzing `POST` data
-``` 
-lessgo -u https://www.example.com -D "uid=1001&pwd=FUZZ" -f list.txt
-```
 
 * For Grepping Status Codes
 ``` 
