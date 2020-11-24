@@ -4,10 +4,15 @@
       |_|___|___|___|_  |___|
                     |___|
 
-<img src="https://img.shields.io/badge/build-passing-green">    <img src="https://img.shields.io/badge/made with-go-orange">
-<img src="https://img.shields.io/badge/go-v1.15-blue?logo=go"> 
-<img src="https://img.shields.io/badge/author-neonify-blue">      <img src="https://img.shields.io/badge/credits-nego-yellow">
+<p align="center">
+<img src="https://img.shields.io/badge/build-passing-green">  
+</p>
+
+<img src="https://img.shields.io/badge/made with-go-orange">     <img src="https://img.shields.io/badge/go-v1.15-blue?logo=go"> 
+<img src="https://img.shields.io/badge/author-neonify-blue">      
+<img src="https://img.shields.io/badge/credits-nego-yellow">
 <img src="https://img.shields.io/badge/license-GPL v3.0-green">
+
 
 ### 𝕝𝕖𝕤𝕤𝕘𝕠
 A `fast` web fuzzer in golang
