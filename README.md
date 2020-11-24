@@ -17,8 +17,11 @@
 </p>
 <hr>
 
-# 𝖑𝖊𝖘𝖘𝖌𝖔
-A `fast` web fuzzer in golang
+<h3 align="center">𝖑𝖊𝖘𝖘𝖌𝖔</h3>
+<p align="center">
+A <code>fast</code> web fuzzer in golang
+</p>
+
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
 * <a href="#INSTALLATION">`Installation`</a>
