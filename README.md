@@ -31,12 +31,12 @@ the flag `-c`
 * <a href="https://golang.org">`GoLang`</a>
 
 ## INSTALLATION
+* ###### Same works for updating
 ``` bash
-$ go get github.com/neonify/lessgo
+$ go get -u github.com/neonify/lessgo
 $ cd /usr/bin
 $ go build github.com/neonify/lessgo
 ```
-
 
 ## USAGE 
 
