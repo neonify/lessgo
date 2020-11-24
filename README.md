@@ -25,6 +25,7 @@ A `fast` web fuzzer in golang
 the flag `-c`
 * Easy Usage
    * It is very easy to <a href="#INSTALLATION">`install`</a> & use
+* Cross Platform
 
 ## REQUIREMENTS
 * <a href="https://golang.org">`GoLang`</a>
