@@ -129,7 +129,6 @@ lessgo -u https://www.example.com -H file_containing_headers.txt
 lessgo -u https://www.example.com?id=FUZZ -f list.txt
 ```
 
-
 * For Grepping Status Codes
 ``` 
 lessgo -u https://FUZZ.example.com -subd -G 403,404,400
