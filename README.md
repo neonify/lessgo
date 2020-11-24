@@ -14,6 +14,7 @@
 <img src="https://img.shields.io/badge/credits-nego-yellow">
 <img src="https://img.shields.io/badge/license-GPL v3.0-green">
 </p>
+<hr>
 
 ### 𝕝𝕖𝕤𝕤𝕘𝕠
 A `fast` web fuzzer in golang
