@@ -30,9 +30,11 @@ the flag `-c`
 * <a href="https://golang.org">`GoLang`</a>
 
 ## INSTALLATION
-* `go get github.com/neonify/lessgo`
-* `cd /usr/bin`
-* `go build github.com/neonify/lessgo`
+``` bash
+go get github.com/neonify/lessgo
+cd /usr/bin
+go build github.com/neonify/lessgo
+```
 
 
 ## USAGE 
