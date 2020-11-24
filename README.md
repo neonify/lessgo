@@ -1,4 +1,5 @@
- ```
+
+```
       _
      | |___ ___ ___ ___ ___
      | | -_|_ -|_ -| . | . |
@@ -16,7 +17,7 @@
 </p>
 <hr>
 
-### 𝕝𝕖𝕤𝕤𝕘𝕠
+# 𝖑𝖊𝖘𝖘𝖌𝖔
 A `fast` web fuzzer in golang
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
