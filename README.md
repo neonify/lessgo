@@ -32,9 +32,9 @@ the flag `-c`
 
 ## INSTALLATION
 ``` bash
-go get github.com/neonify/lessgo
-cd /usr/bin
-go build github.com/neonify/lessgo
+$ go get github.com/neonify/lessgo
+$ cd /usr/bin
+$ go build github.com/neonify/lessgo
 ```
 
 
