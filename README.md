@@ -16,7 +16,7 @@ A `fast` web fuzzer in golang
 * <a href="#INSTALLATION">`Installation`</a>
 * <a href="#USAGE">`Usage`</a>
 * <a href="#EXAMPLES">`Examples`</a>
-* <a href="#SUPPORT&FEEDBACK">`Support/Feedback`</a>
+* <a href="#SUPPORT-FEEDBACK">`Support/Feedback`</a>
 
 ## FEATURES
 * Speed
@@ -151,7 +151,7 @@ lessgo -u https://www.example.com/FUZZ -dirs/-lfi
 ### VERSION
 <strong>v 2.1.0</strong>
 
-### SUPPORT&FEEDBACK
+### SUPPORT-FEEDBACK
 
 __SUPPORT__ \
 <a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5lwX-Jw06voMwUSqXccNMHPQkWMTx4Odvg&usqp=CAU" width="70px"></a>
