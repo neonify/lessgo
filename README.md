@@ -175,7 +175,7 @@ __FEEDBACK__ \
 __STARGAZERS__
 [![Stargazers repo roster for @neonify/lessgo](https://reporoster.com/stars/neonify/lessgo)](https://github.com/neonify/lessgo/stargazers)
 
-###### Support us by hitting the star button in the <a href="#">`top`</a>
+###### Support us by hitting the star button <a href="#">`above`</a>
 
 <hr>
 <p align="center">
