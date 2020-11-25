@@ -167,7 +167,11 @@ lessgo -u https://www.example.com/FUZZ -dirs/-lfi
 __SUPPORT__ \
 <a href="https://mobile.twitter.com/neonify4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5lwX-Jw06voMwUSqXccNMHPQkWMTx4Odvg&usqp=CAU" width="70px"></a>
 <a href="https://reddit.com/user/n3onify"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbvqesjWPhKrOOHcJABPo2-7uvM4iapo3Gw&usqp=CAU" width="80px"></a>
+
+__STARGAZERS__
+[![Stargazers repo roster for @neonify/lessgo](https://reporoster.com/stars/neonify/lessgo)](https://github.com/neonify/lessgo/stargazers)
  
+
 __FEEDBACK__ \
 <a href="mailto:lessgofuzzer@gmail.com"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLx3fjKDNLRpmJS8MpPLMleNNALBrgoE2VTA&usqp=CAU" width="70px"></a>
 <a href="https://github.com/neonify/lessgo/issues"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgYgVFsExjMYtlmONymM58gcWsRGKlgb7FQ&usqp=CAU" width="80px" height="40px"></a>
@@ -175,5 +179,5 @@ __FEEDBACK__ \
 <hr>
 <p align="center">
 <a href="#">
-<img src="https://mozpk.com/wp-content/uploads/2016/11/Back-to-top-button.png" height="40px">
+<img src="https://mozpk.com/wp-content/uploads/2016/11/Back-to-top-button.png" height="30px">
 </a></p><hr>
