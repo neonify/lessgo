@@ -9,7 +9,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/build-passing-green"><br>
-<img src="https://img.shields.io/badge/made with-go-orange">
+<img src="https://img.shields.io/badge/made with-go-blue">
 <img src="https://img.shields.io/badge/go-v1.15-blue?logo=go"> 
 <img src="https://img.shields.io/badge/author-neonify-blue">      
 <img src="https://img.shields.io/badge/credits-nego-yellow">
