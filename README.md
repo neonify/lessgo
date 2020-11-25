@@ -177,6 +177,7 @@ __STARGAZERS__
 __FORKERS__
 [![Forkers repo roster for @neonify/lessgo](https://reporoster.com/forks/neonify/lessgo)](https://github.com/neonify/lessgo/network/members)
 
+###### Support us by hitting the star button in the <a href="#">`top`</a>
 
 <hr>
 <p align="center">
