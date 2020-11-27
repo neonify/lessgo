@@ -66,7 +66,7 @@ REQUIRED
 -u      to specify the url 
 
 CHOOSE ANY ONE 
--B      to specify a number range to use as payloads
+-B      to specify a number range for pure bruteforce
 -f      to specify the wordlist
 -subd   wordlist of common subdomains (length : 871)
 -dirs   wordlist of common directories (length : 1273822)
@@ -150,7 +150,7 @@ lessgo -u https://www.example.com?id=FUZZ -f list.txt
 lessgo -u https://FUZZ.example.com -subd -G 403,404,400
 ```
 
-* For using number range as payloads
+* For Pure Bruteforcing `numbers`
 ```
 lessgo -u https://www.example.com?id=FUZZ -B 0-10
 ```
