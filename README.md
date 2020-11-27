@@ -66,6 +66,7 @@ REQUIRED
 -u      to specify the url 
 
 CHOOSE ANY ONE 
+-B      to specify a number range to use as payloads
 -f      to specify the wordlist
 -subd   wordlist of common subdomains (length : 871)
 -dirs   wordlist of common directories (length : 1273822)
@@ -77,6 +78,7 @@ OPTIONAL
 -R      to follow redirects (default : false)
 -G      to grep the given status codes (default : *)
 -E      to exclude/hide the given status code (default : none)
+-W      to grep a word (default : none)
 -H      to specify the file containg headers
 -D      to specify data to be sent (default : none)
 -T      to specify timeout (default : 0)
@@ -148,6 +150,11 @@ lessgo -u https://www.example.com?id=FUZZ -f list.txt
 lessgo -u https://FUZZ.example.com -subd -G 403,404,400
 ```
 
+* For using number range as payloads
+```
+lessgo -u https://www.example.com?id=FUZZ -B 0-10
+```
+
 * For subdomain fuzzing
 ``` 
 lessgo -u https://FUZZ.example.com -subd
@@ -160,7 +167,7 @@ lessgo -u https://www.example.com/FUZZ -dirs/-lfi
 
 
 ### VERSION
-<strong>v 2.1.0</strong>
+<strong>v 2.1.1</strong>
 
 ### SUPPORT-FEEDBACK
 
