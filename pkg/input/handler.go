@@ -77,6 +77,9 @@ func (Obj *Data)Handle(){
   
   lessgo.Color("blue","[*] Grep List : "+StrGL)
   lessgo.Color("blue","[*] Exclude List : "+StrEL)
+  
+  lessgo.Color("blue","[*] Word to be diltered : "+Obj.Filter)
+  
   lessgo.Color("blue","[*] Header File : "+HF)
     
     

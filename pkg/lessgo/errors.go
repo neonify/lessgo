@@ -50,6 +50,9 @@ func RespErrHandle(err error)(string){
     
   } else if match, _ := regexp.MatchString(".*connection refused.*", err.Error()); match {
     err2 = ("Connection refused")
+  
+  } else if match, _ := regexp.MatchString(".*connection reset by peer.*", err.Error()); match {
+    err2 = ("Connection reset by peer")
     
   }
   

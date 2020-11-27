@@ -19,6 +19,7 @@ CHOOSE ANY ONE
 
 :: Wordlists
 -------------
+-B      to specify a range of numbers to use them as payloads
 -f      to specify the wordlist
 -subd   wordlist of common subdomains (length : 871)
 -dirs   wordlist of common directories (length : 1273822)
@@ -30,6 +31,7 @@ OPTIONAL
 -------------
 -G      to grep the given status codes (default : *)
 -E      to Exclude the given status codes (default : none)
+-W      to grep a given word (default : none)
 
 :: Other Options
 ------------------

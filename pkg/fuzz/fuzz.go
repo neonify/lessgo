@@ -3,6 +3,8 @@ package fuzz
 import (
   //"fmt"
 	"strings"
+	"io/ioutil"
+	"net/http"
 	//"github.com/neonify/lessgo/pkg/lessgo"
 	"github.com/neonify/lessgo/pkg/input"
 )
@@ -61,7 +63,7 @@ func Request(Obj input.Data,payload string,Output map[int]int,HeaderMap map[stri
       Output = OutPrint(Output,000)
     }else{
       
-      if len(GrepList) == 0 && len(ExcList) == 0{
+      if len(GrepList) == 0 && len(ExcList) == 0 && Obj.Filter == ""{
         Format(resp,payload,url)
       }else if len(GrepList) != 0{
         if contains(GrepList,resp.StatusCode) == true{
@@ -73,6 +75,10 @@ func Request(Obj input.Data,payload string,Output map[int]int,HeaderMap map[stri
           Format(resp,payload,url)
         }
         
+      }else if Obj.Filter != ""{
+        if WordContains(resp,Obj.Filter){
+          Format(resp,payload,url)
+        }
       }
       
       
@@ -105,4 +111,16 @@ func OutPrint(Output map[int]int,code int)(map[int]int){
     }
     
     return Output
+}
+
+func WordContains(resp *http.Response,word string)(bool){
+  
+  body,_ := ioutil.ReadAll(resp.Body)
+  defer resp.Body.Close()
+  
+  if strings.Contains(string(body),word){
+    return true
+  }
+  
+  return false
 }

@@ -7,6 +7,7 @@ import(
   "strconv"
   "io/ioutil"
   "go/build"
+  "github.com/neonify/lessgo/pkg/lessgo"
 )
 
 var IntSlice []int
@@ -112,4 +113,22 @@ func DataParse(DataStr string)(*url.Values){
   
   return &data
   
+}
+
+func BruteIt(Str string){
+  
+  Slice1 := strings.Split(Str,"-")
+  
+  strt,_ := strconv.Atoi(Slice1[0])
+  end,_ := strconv.Atoi(Slice1[1])
+  
+  for i := strt; i<end; i++{
+    fyl,err := os.OpenFile("brute_list",os.O_CREATE|os.O_APPEND|os.O_WRONLY,0644)
+    
+    lessgo.Checkerr(err)
+    
+    _,err = fyl.WriteString(strconv.Itoa(i)+"\n")
+    lessgo.Checkerr(err)
+    
+  }
 }
