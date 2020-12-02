@@ -23,6 +23,11 @@
 A <code>fast</code> web fuzzer in golang
 </p><hr>
 
+<p align="center">
+<img src="https://avatars0.githubusercontent.com/u/72431350?s=400&u=c374bc99b895675fee192f056f1a3de425a58e1f&v=4" width="50px"> 
+<br>A neonified tool<br>
+</p><hr>
+
 
 ## Table Of Contents
 * <a href="#FEATURES">`Features`</a> 
