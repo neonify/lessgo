@@ -1,11 +1,13 @@
 
-```
+<p align="center">
+<pre>
      _
     | |___ ___ ___ ___ ___
     | | -_|_ -|_ -| . | . |
     |_|___|___|___|_  |___|
                   |___|
-```
+</pre>
+</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/build-passing-green"><br>
