@@ -25,7 +25,8 @@ A <code>fast</code> web fuzzer in golang
 
 <p align="center">
 <img src="https://avatars0.githubusercontent.com/u/72431350?s=400&u=c374bc99b895675fee192f056f1a3de425a58e1f&v=4" width="50px"> 
-<br>A neonified tool<br>
+<br>A neonified tool 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfqnxytUpie117zLoV0IL76RnGtgLGJ8oAg&usqp=CAU" width="25px"><br>
 </p><hr>
 
 
